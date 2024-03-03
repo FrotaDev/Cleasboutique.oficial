@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: rgba(34, 31, 31, 0.822);
+    height: 135px;
+    color: rgba(238, 163, 138, 0.938);
+
+}
+
+.logo {
+    height: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 30px;
+    margin: 30px;
+    border: 3px solid rgba(238, 163, 138, 0.938);
+    margin-right: 30px;
+}
+.nome-loja {
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    font-size: 50px;
+    margin-left: 300px;
+    margin-top: 48px;
+    background-color: (233, 150, 122, 0.623);
+}
+
+.navegaçao {
+    display: flex;
+    justify-content: end;
+    margin-left: 50px;
+    margin-bottom: 150px;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+a {
+    color: rgba(238, 163, 138, 0.938);
+}
+
+span {
+    font-size: 28px;
+    color: rgba(238, 163, 138, 0.938);
+}
+
+.texto-pagina {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 50px;
+    height: 50vh;
+    width: 50%;
+    color: rgb(255, 246, 246);
+}
+
+.video-fundo {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+}
+
+.mascara {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(109deg, rgba(0, 0, 0, 0.836) 15%, rgba(0, 0, 0, 0.836) 50%, rgba(0, 0, 0, 0.582) 85%);
+    position: fixed;
+    top: 0;
+}
+
+button {
+    display: flex;
+    border-radius: 100px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 250px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgba(238, 163, 138, 0.938);
+    margin-bottom: 150px;
+    cursor: pointer;
+    color: black;
+}
+
+.logo-baixo {
+    height: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid rgba(238, 163, 138, 0.938);
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+footer {
+    background-color: rgba(34, 31, 31, 0.664);
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: -10x;
+}
+
+footer nav a {
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+footer p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    margin-left: 150px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 200px;
+   
+}
+footer p a {
+    color: rgba(238, 163, 138, 0.938);
+    text-decoration: none;
+    font-size: 18px;
+   
+ 
+    }
+    .titulo {
+        color: rgba(238, 163, 138, 0.938);
+        font-size: 25px;
+    }
+    .Links{
+        color: rgba(238, 163, 138, 0.938);
+        font-size: 25px;
+    }
+    
+    #copyright {
+        background-color: rgba(34, 31, 31, 0.664);
+        color: #ffffff;
+        padding: 5px;
+        text-align:start;
+        }
+        
+        #copyright a {
+        color: rgba(238, 163, 138, 0.938);
+        }
+
+
+        
+@media (max-width: 526px) {
+    .logo {
+        height: 60px;
+        margin: 10px;
+    }
+
+    header .nome-loja {
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .navegaçao {
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        justify-content: space-around;
+        font-size: 16px;
+        margin-top: 20px;
+        align-content: center;
+    }
+
+    .texto-pagina {
+        display: flex;
+        align-items: center;
+        font-size: 17px;
+        margin-left: 10px;
+        height: 60vh;
+        width: 100%;
+        color: rgb(255, 246, 246);
+    }
+
+    button {
+    display: flex;
+    border-radius: 100px;
+    border: none;
+    width: 190px;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: rgba(238, 163, 138, 0.938);
+    cursor: pointer;
+    color: black;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #copyright {
+        background-color: rgba(34, 31, 31, 0.664);
+        color: #ffffff;
+        padding: 2px;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    #copyright a {
+        color: rgba(238, 163, 138, 0.938);
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: rgba(34, 31, 31, 0.822);
+    height: 135px;
+    color: rgba(238, 163, 138, 0.938);
+
+}
+
+.logo {
+    height: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 30px;
+    margin: 30px;
+    border: 3px solid rgba(238, 163, 138, 0.938);
+    margin-right: 30px;
+}
+
+.nome-loja {
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    font-size: 50px;
+    margin-left: 550px;
+    margin-top: 48px;
+    background-color: (233, 150, 122, 0.623);
+}
+
+.navegaçao {
+    display: flex;
+    justify-content: end;
+    margin-left: 50px;
+    margin-bottom: 150px;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+a {
+    color: rgba(238, 163, 138, 0.938);
+}
+
+span {
+    font-size: 28px;
+    color: rgba(238, 163, 138, 0.938);
+}
+
+.texto-pagina {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 50px;
+    height: 50vh;
+    width: 50%;
+    color: rgb(255, 246, 246);
+}
+
+.video-fundo {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+}
+
+.mascara {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(109deg, rgba(0, 0, 0, 0.836) 15%, rgba(0, 0, 0, 0.836) 50%, rgba(0, 0, 0, 0.582) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.obrogado {
+    width: 40%;
+    min-width: 350px;
+    background-color: rgba(238, 163, 138, 0.589);
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(155, 67, 67, 0.952);
+    margin: 130px auto;
+    padding: 20px;
+}
+
+h1, p {
+    text-align: center;
+    margin: 10px;
+}
